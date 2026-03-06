@@ -1,10 +1,18 @@
-This is my personal Landing Page built with: 
+# Landing Page Portfolio
 
-HTML
-CSS
-JavaScript 
+This is my personal landing page built with:
 
-Features:
--Responsive Layout
--Interactive background button 
--Deployed with GitHub Pages
+- HTML
+- CSS
+- JavaScript
+
+## Features
+
+- Responsive layout
+- Interactive background button
+- DOM manipulation with JavaScript
+- Deployed with GitHub Pages
+
+## Live Site
+
+https://aimly1.github.io/landing-page/
