@@ -11,3 +11,16 @@ button.addEventListener("click", function() {
     document.body.style.backgroundColor = "black";
   }
 });
+const themeBtn = document.getElementById("themeBtn");
+themeBtn.addEventListener("click",function () {
+  document.body.classList.toggle("dark");
+});
+const aboutBtn= document.getElementById("aboutBtn");
+const aboutText = document.querySelector("#about p");
+  aboutBtn.addEventListener("click", function () {
+    if (aboutText.style.display === "none") {
+      aboutText.style.display = "block";
+    } else {
+      aboutText.style.display = "none";
+      }
+    });

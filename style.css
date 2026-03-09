@@ -44,3 +44,25 @@ footer {
       margin: 5px 0;
     }
   }
+  .dark {
+    background-color: #111;
+    color: white;
+  }
+.dark section {
+    background-color: #1f1f1f;
+}
+.dark footer {
+    background-color: #000;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
