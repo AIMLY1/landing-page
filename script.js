@@ -24,3 +24,9 @@ const aboutText = document.querySelector("#about p");
       aboutText.style.display = "none";
       }
     });
+const cards = document.querySelectorAll(".project-card");
+  cards.forEach(function(card) {
+   card.addEventListener("click", function() {
+    card.classList.toggle("active");
+  });
+});
